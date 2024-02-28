@@ -1,0 +1,221 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About Us - Kairos</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/logo.jpg' %}" rel="icon">
+  <link href="{% static 'assets/img/logo.jpg' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: OnePage
+  * Updated: Feb 21 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="{% url 'index' %}">About Us</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="{% url 'index' %}" class="logo"><img src="{% static 'assets/img/logo.jpg' %}" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="{% url 'index' %}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'aboutus' %}">About Kairos</a></li>
+          <li><a class="nav-link scrollto" href="#services">Service Recordings</a></li>
+          <!-- <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li> -->
+          <li><a class="nav-link scrollto" href="{% url 'team' %}">Our Leaders</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Kairos Programmes</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">NFL</a></li>
+              <li><a href="#">Emerging Families</a></li>
+              <li><a href="#">Relationship for singles</a></li>
+              <li><a href="#">Relationship for Couples</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="#about">Join the family</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <!-- <div class="d-flex justify-content-between align-items-center">
+          <h2>Inner Page</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Inner Page</li>
+          </ol>
+        </div> -->
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <p>
+          <h2>About Kairos Christian Fellowship</h2><br/>
+
+          <p>Welcome to Kairos Christian Fellowship, a community of believers devoted to experiencing the fullness of God's time and purpose in our lives. "Kairos," a Greek word meaning "appointed time" or "opportune moment," reflects our commitment to recognizing and embracing the divine moments orchestrated by God.</p><br/>
+          <br/>
+          <h4 class="title">Our Mission:</h4><br/>
+          <p>At Kairos, our mission is to passionately follow Christ, cultivate genuine relationships, and impact the world with the love and message of Jesus. We believe in creating an atmosphere where people can encounter the transformative power of God's grace.</p><br/>
+
+          <h4 class="title">Our Vision:</h4><br/>
+          <p>Our vision is to be a thriving fellowship where individuals are equipped to live purposeful lives, rooted in faith, and empowered to make a positive difference in their communities. We aspire to build a family of believers who walk together in spiritual growth, love, and unity.</p><br/>
+
+          <h4 class="title">Core Beliefs:</h4><br/>
+          <ul>
+            <li class="bx bx-check-double">We believe in the authority of the Bible as God's inspired word.</li>
+            <li class="bx bx-check-double">We believe in the redemptive work of Jesus Christ and salvation through faith in Him.</li>
+            <li class="bx bx-check-double">We embrace the Holy Spirit's guidance for personal and communal transformation.</li>
+            <li class="bx bx-check-double">We are committed to worship, prayer, and the pursuit of a vibrant relationship with God.</li>
+          </ul> <br/>
+          <h4 class="title">Join Us:</h4><br/>
+          <p>Whether you are seeking a place of worship, community, or spiritual growth, Kairos Christian Fellowship welcomes you with open arms. Come as you are, and let's journey together in God's Kairos moments.</p><br/>
+
+          <h4 class="title">Connect With Us:</h4>
+          Visit our gatherings, engage in fellowship, and explore the exciting opportunities to grow in your faith. Follow us on social media to stay updated on events, teachings, and ways to get involved.
+
+          We look forward to meeting you and experiencing God's Kairos moments together!
+
+          Blessings,
+          The Kairos Christian Fellowship Family
+        </p>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>OnePage</h3>
+            <p>
+              25 Adekayode Street <br>
+              ArowoJobe Estate, Lagos<br>
+              Nigeria <br><br>
+              <strong>Phone:</strong> +2348036014481<br>
+              <strong>Email:</strong> femiakande60@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'index' %}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'aboutus' %}">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Morning Prayers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sunday Fellowship</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Evening Meditation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Human Empowerment</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Register to get Newsletters from us</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kairos</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
